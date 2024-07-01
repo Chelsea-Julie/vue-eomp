@@ -1,0 +1,17 @@
+*,
+*::before,
+*::after {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+img[alt="logo"] {
+    width: 5rem;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
