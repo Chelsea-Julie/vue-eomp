@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+
 *,
 *::before,
 *::after {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -18,13 +22,18 @@
     color: #2c3e50;
   }
   
-  nav {
-    padding: 30px;
+
+
+  nav{
+    background-color: #765b4d ;
+    & .nav-item{
+        padding: 0;
+    }
   }
-  
   nav a {
     font-weight: bold;
-    color: #2c3e50;
+    color: aliceblue ;
+    padding: 0;
   }
   
   nav a.router-link-exact-active {
@@ -50,7 +59,9 @@ img[alt="logo"] {
 }
 
 img[me]{
-    width: 40rem;
+    width: 30rem;
+    border-top-left-radius: 50%  !important;
+    border-top-right-radius: 50%  !important;
 }
 /* wrapper */
 :is(.wrapper) {
@@ -58,3 +69,35 @@ img[me]{
     grid-template-rows: auto minmax(100dvh, 100%) auto;
 }
 
+/* landing page styles  */
+#landing{
+    background-image: url( "https://chelsea-julie.github.io/all-images/images/Brown Grey Creative Modern Online Portfolio/landing2.png" );
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black !important;;
+}
+
+h1{
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: weight;
+        font-style: normal;
+        font-size: 5rem !important;
+        color: aliceblue;
+      
+}
+
+#details{
+    color: aliceblue;
+    & p {
+        font-size: 2rem;
+            font-family: "Rajdhani", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+    }
+}
+
+footer{
+    background-color: #765b4d ;
+}
