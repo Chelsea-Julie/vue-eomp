@@ -2,7 +2,7 @@
     <div class="container-fluid">
       <div class="row vh-100 align-items-center">
           <div class="col">
-              <div id="details">
+              <div id="details" >
                     <h1>Hello</h1>
                   <h2 class="display-1"> I'm Chelsea Julie</h2>
                   <p v-if="title">
@@ -24,7 +24,7 @@
   
   import {computed, onMounted, ref } from 'vue'
   import {useStore} from 'vuex'
-//   import Spinner from '@/components/Spinner.vue'
+  import Spinner from '@/components/Spinner.vue'
 
     const jobtitle = computed(() => store.state.jobtitle)
     const store = useStore()
