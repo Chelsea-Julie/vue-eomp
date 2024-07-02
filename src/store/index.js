@@ -44,7 +44,6 @@ export default createStore({
         let res = await (await axios.get(portfolioURL)).data  
         // let {jobTitle} = await (await axios.get(portfolioURL)).data
         context.commit("setJobtitle", res.jobTitle)
-        console.log(res.jobTitle);
       } catch(e) {
       swal.fire ({
         title: "Error",
@@ -54,12 +53,13 @@ export default createStore({
       })
     }
     },
-    async fetchAbout(context) { 
+    async fetchAbout(context) {
+      console.log("here"); 
       try {
         let res = await (await axios.get(portfolioURL)).data  
         // let {jobTitle} = await (await axios.get(portfolioURL)).data
-        context.commit("setAbout", res.About)
         console.log(res.About);
+        context.commit("setAbout", res.About)
       } catch(e) {
       swal.fire ({
         title: "Error",

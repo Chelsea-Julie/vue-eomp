@@ -13,7 +13,7 @@
           <a class="nav-link active text-light" aria-current="page" to="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#about">About</a>
+          <a class="nav-link text-light" href="#about">About <i class="bi bi-house"></i></a>
         </li>
         <li class="nav-item">
           <a class="nav-link text-light" href="#resume">Resume</a>
