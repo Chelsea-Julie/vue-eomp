@@ -1,12 +1,14 @@
 <template>
     <div class="container-fluid">
-      <section class="row" id="landing">
+      <section class="row vh-100" id="landing">
         <LandingSection /> 
       </section>
-      <section class="row" id="about">
+      <section class="row vh-100" id="about">
         <AboutSection /> 
       </section>
-      <section class="row" id="resume"></section>
+      <section class="row vh-100" id="resume">
+        <Education />
+      </section>
       <section class="row" id="project"></section>
       <section class="row" id="testimonials"></section>
       <section class="row" id="reachme"></section>
@@ -16,10 +18,11 @@
 <script >
 import LandingSection from '../components/LandingSection.vue'
 import AboutSection from '../components/AboutSection.vue'
+import Education from '@/components/EducationSection.vue'
 export default {
 name: 'HomeView',
 components: {
-    LandingSection, AboutSection
+    LandingSection, AboutSection, Education
 }
 }
 </script>

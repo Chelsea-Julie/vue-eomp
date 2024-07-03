@@ -74,7 +74,6 @@ img[me]{
     background-image: url( "https://chelsea-julie.github.io/all-images/images/Brown Grey Creative Modern Online Portfolio/landing2.png" );
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black !important;;
 }
 
 h1{
@@ -99,4 +98,11 @@ h1{
 
 footer{
     background-color: #765b4d ;
+}
+
+#resume{
+    background-image: url( "https://chelsea-julie.github.io/all-images/images/Brown Grey Creative Modern Online Portfolio/3.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+
 }
