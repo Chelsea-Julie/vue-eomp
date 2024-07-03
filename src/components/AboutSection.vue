@@ -34,7 +34,7 @@
         store.dispatch('fetchAbout')
       })
   
-  </script>
+</script>
 
 <style scoped>
 
