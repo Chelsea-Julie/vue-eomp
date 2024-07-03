@@ -4,6 +4,7 @@
         <h1>Resume</h1>
         <div id="carouselExample" class="carousel slide" >
             <div class="carousel-inner">
+
                 <div class="carousel-item active">
                     <div class="wrap">
                         <div class="row">
@@ -35,31 +36,31 @@
 
                 <div class="carousel-item">
                     <div class="wrap">
-            <div class="row ">
-                <div class="col-3 text-lg-start ">
-                   <h2>My Experience</h2>
-                   <hr>
-                    <div v-for="edu in education" :key="edu.id">
-                        <p>Hey there</p>
-                    </div>
-                </div>
-    
-                <div class="col-9  d-flex flex-row justify-content-end">
-                    <div class="cont d-flex flex-column justify-content-evenly">
-                        <div v-for="edu in education" :key="edu.id" :class="{first : edu.institution == 'Mondale High School', second : edu.institution != 'Mondale High School'}">
-                            <div class="card-body">
-                                <h3 class="card-title">{{edu.institution}}</h3>
-                                <p class="card-text">{{edu.Qualification}}</p>
-                                <div class="col d-flex flex-row justify-content-center">
-                                    <hr >
-                                </div>
-                                <p class="card-text"><small class="text-muted">{{edu.paragraph}}</small></p>
+                        <div class="row ">
+                        <div class="col-3 text-lg-start ">
+                        <h2>My Experience</h2>
+                        <hr>
+                            <div v-for="edu in education" :key="edu.id">
+                                <p>Hey there</p>
                             </div>
                         </div>
+            
+                        <div class="col-9  d-flex flex-row justify-content-end">
+                            <div class="cont d-flex flex-column justify-content-evenly">
+                                <div v-for="edu in education" :key="edu.id" :class="{first : edu.institution == 'Mondale High School', second : edu.institution != 'Mondale High School'}">
+                                    <div class="card-body">
+                                        <h3 class="card-title">{{edu.institution}}</h3>
+                                        <p class="card-text">{{edu.Qualification}}</p>
+                                        <div class="col d-flex flex-row justify-content-center">
+                                            <hr >
+                                        </div>
+                                        <p class="card-text"><small class="text-muted">{{edu.paragraph}}</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div>
                     </div>
-                </div>
-            </div>
-                </div>
                 </div>
 
             </div>
