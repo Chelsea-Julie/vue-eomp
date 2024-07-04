@@ -100,7 +100,6 @@ export default createStore({
         let res = await (await axios.get(portfolioURL)).data  
         // let {jobTitle} = await (await axios.get(portfolioURL)).data
         context.commit("setSkills", res.skills)
-        console.log(res.skills);
       } catch(e) {
       swal.fire ({
         title: "Error",
@@ -114,7 +113,7 @@ export default createStore({
       try {
         let res = await (await axios.get(portfolioURL)).data  
         // let {jobTitle} = await (await axios.get(portfolioURL)).data
-        context.commit("setTestimonials", res.testimonials)
+        context.commit("setTestimonial", res.testimonials)
         console.log(res.testimonials);
       } catch(e) {
       swal.fire ({
