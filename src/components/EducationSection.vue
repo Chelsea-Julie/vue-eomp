@@ -11,9 +11,11 @@
                             <div class="col-3 text-lg-start ">
                             <h2>My Education</h2>
                             <hr>
-                                <div v-for="edu in education" :key="edu.id">
-                                    <p>Hey there</p>
-                                </div>
+                                <ul>
+                                    <li v-for="edu in education" :key="edu.id">
+                                        {{edu.institution}}
+                                    </li>
+                                </ul>
                             </div>
                 
                             <div class="col-9  d-flex flex-row justify-content-end">
@@ -40,8 +42,8 @@
                         <div class="col-3 text-lg-start ">
                         <h2>My Experience</h2>
                         <hr>
-                            <div v-for="edu in education" :key="edu.id">
-                                <p>Hey there</p>
+                            <div v-for="edu in experience" :key="edu.id">
+                                <p>{{experience[0].company}}</p>
                             </div>
                         </div>
             
@@ -63,7 +65,7 @@
                     </div>
                 </div>
 
-            </div>
+        </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
@@ -82,12 +84,13 @@
     import {useStore} from 'vuex'
   
 
-    const education = computed((() => store.state.education), add)
+    const education = computed(() => store.state.education, add)
     const store = useStore()
+    const experience = computed(() => store.state.experience)
 
   
     onMounted(() => {store.dispatch('fetchEducation')})
-
+    onMounted(() => {store.dispatch('fetchExperience')})
     const spans = document.querySelectorAll("[span]")
 
 

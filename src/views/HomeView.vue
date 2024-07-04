@@ -9,9 +9,15 @@
       <section class="row vh-100" id="resume">
         <Education />
       </section>
-      <section class="row" id="project"></section>
-      <section class="row" id="testimonials"></section>
-      <section class="row" id="reachme"></section>
+      <section class="row" id="project">
+        
+      </section>
+      <section class="row" id="testimonials">
+        <testimonials/>
+      </section>
+      <section class="row" id="reachme">
+        
+      </section>
     </div>
 </template>
   
@@ -19,10 +25,11 @@
 import LandingSection from '../components/LandingSection.vue'
 import AboutSection from '../components/AboutSection.vue'
 import Education from '@/components/EducationSection.vue'
+import Testimonials from '../components/TestimonialsSections.vue'
 export default {
 name: 'HomeView',
 components: {
-    LandingSection, AboutSection, Education
+    LandingSection, AboutSection, Education, Testimonials
 }
 }
 </script>
