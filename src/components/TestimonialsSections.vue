@@ -2,10 +2,7 @@
     <div id="mainCoantiner">
         <h2>Testimonials</h2>
         <div class="margin-body">
-
-
-            
-            <div class="row" v-if="testimonials">
+            <div class="row flex-sm-column flex-md-column flex-lg-row " v-if="testimonials">
                 <div class="col-sm-3 col-md-3 pricing-column-wrapper" v-for="(testimonial, index) in testimonials" :key="index" >
                 <div class="pricing-column" cont v-if="testimonial.name != 'Valhatiem Raynard'" maincont>
                         <div class="pricing-price-row">
@@ -26,7 +23,6 @@
                         </div>
                 </div>
             </div>
-
         </div>
     </div>
 </template>

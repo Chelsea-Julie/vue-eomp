@@ -82,7 +82,7 @@ h1{
         font-weight: weight;
         font-style: normal;
         font-size: 5rem !important;
-        color: aliceblue;
+        color: aliceblue !important;
       
 }
 
@@ -111,4 +111,11 @@ footer{
     background-image: url( "https://chelsea-julie.github.io/all-images/images/Brown Grey Creative Modern Online Portfolio/4.png" );
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+#project{
+    background-image: url( "https://chelsea-julie.github.io/all-images/images/Brown Grey Creative Modern Online Portfolio/2.png" );
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white !important;;
 }
