@@ -26,7 +26,7 @@
                       
                       <div class="contact-info-content">
                         <h4>Address</h4>
-                        <p>120 Tulip Cresent,<br/> Lentegeur, Mitchells Plain, <br/>7785</p>
+                        <p> Mitchells Plain, <br/>7785</p>
                       </div>
                     </div>
                     

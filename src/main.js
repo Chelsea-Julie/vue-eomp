@@ -7,7 +7,8 @@ import store from './store'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 
-import 'font-awesome-4/css/font-awesome.min.css'
-
+import 'aos/dist/aos.css'
+import AOS from 'aos'
 
 createApp(App).use(store).use(router).mount('#app')
+AOS.init()

@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
     <router-Link class="navbar-brand" to="/">
         <img src="https://chelsea-julie.github.io/all-images/images/Random/cj.png" alt="logo" class="img-thumbnail" loading="lazy">
@@ -10,25 +10,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" to="/">Home</a>
+          <a class="nav-link active text-light" aria-current="page" to="/">Home<i class="bi bi-house"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#about">About <i class="bi bi-house"></i></a>
+          <a class="nav-link text-light" href="#about">About <i class="bi bi-file-earmark-person"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#resume">Resume</a>
+          <a class="nav-link text-light" href="#resume">Resume <i class="bi bi-file-person"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#skills">Skills</a>
+          <a class="nav-link text-light" href="#skills">Skills<i class="bi bi-lightbulb"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#project">Projects</a>
+          <a class="nav-link text-light" href="#project">Projects<i class="bi bi-card-list"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#testimonials">Testimonials</a>
+          <a class="nav-link text-light" href="#testimonials">Testimonials<i class="bi bi-person-lines-fill"></i></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#reachMe">Reah me</a>
+          <a class="nav-link text-light" href="#reachme">Reach me<i class="bi bi-telephone"></i></a>
         </li>
       </ul>
     </div>
