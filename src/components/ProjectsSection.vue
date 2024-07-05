@@ -11,15 +11,24 @@
             <li cont v-for="(project, index) in projects" :key="index">
                 <a href="" class="card">
                 <div class="card__overlay">
-                    <div class="card__header">
-                    <div class="card__header-text">
+                  <div class="card__header d-flex flex-row justify-content-center">
+                    
+                    <div class="card__header-text ">
+                      <div class="col-12 ">
+                        <img :src="project.img_url" :alt="project.name">
+                      </div>
+                      <div class="col-12">
                         <h3 class="card__title">{{ project.name }}</h3>            
+
+                      </div>
+                      <div class="col-12">
                         <span class="card__status">1 month ago</span>
+                      </div>
                     </div>
                     </div>
                     <p class="card__description">{{ project.description }}</p>
-                    <div class="">
-                      <div class="col d-flex flex-row justify-content-around"><a class="btn btn-dark">GitHub</a> <a class="btn btn-dark">LinkedIn</a></div>
+                    <div class="buttonsThingy">
+                      <div class="col d-flex flex-row justify-content-around"><a class="btn" :href="project.github" target="_blank">GitHub</a> <a class="btn">Vercel</a></div>
                     </div>
                 </div>
                 </a>      
@@ -55,7 +64,12 @@
 [cont]{
     min-height: 20rem;
     max-width: 20rem;
-    background-color: #fff;
+    
+    
+}
+
+.card{
+  background-color: white;
 }
 
 .concat{
@@ -82,6 +96,7 @@ body {
   margin: 4rem 5vw;
   padding: 0;
   list-style-type: none;
+ 
 }
 
 .card {
@@ -141,6 +156,7 @@ body {
 
 .card:hover .card__header {
   transform: translateY(0);
+
 }
 
 .card__thumb {
@@ -172,18 +188,33 @@ body {
 .card__description {
   padding: 0 2em 2em;
   margin: 0;
-  color: #D7BDCA;   
+  color: #90486c;   
   display: block;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   overflow: hidden;
+  background-color: #886342;
 }  
+
+.buttonsThingy{
+  background-color: #886342;
+
+}
 
 *{
     background: rgba(255, 255, 255, 0);
 }
 
+h1{
+  color: aliceblue !important;
+}
 
+img{
+  width: 10rem;
+}
 
+.btn{
+ background-color: #6A515E;
+}
 
 </style>
