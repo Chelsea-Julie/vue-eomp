@@ -19,6 +19,9 @@
           <a class="nav-link text-light" href="#resume">Resume</a>
         </li>
         <li class="nav-item">
+          <a class="nav-link text-light" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link text-light" href="#project">Projects</a>
         </li>
         <li class="nav-item">
