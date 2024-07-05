@@ -14,7 +14,7 @@
               </div>
           </div>
           <div class="col">
-                  <img src="https://chelsea-julie.github.io/all-images/images/Humans/CJ-1.jpg" alt="logo" me loading="lazy">
+                  <img src="https://chelsea-julie.github.io/all-images/images/Humans/landing.jpg" alt="logo" me loading="lazy">
           </div>
       </div>
     </div>

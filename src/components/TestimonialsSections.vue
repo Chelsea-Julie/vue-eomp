@@ -1,6 +1,6 @@
 <template >
     <div id="mainCoantiner">
-        <h2>Testimonials</h2>
+        <h1>Testimonials</h1>
         <div class="margin-body">
             <div class="row flex-sm-column flex-md-column flex-lg-row " v-if="testimonials">
                 <div class="col-sm-3 col-md-3 pricing-column-wrapper" v-for="(testimonial, index) in testimonials" :key="index" >
@@ -342,6 +342,8 @@ figure {
 .pricing-column:hover {
   overflow: hidden;
 }
+
+
 
 
 

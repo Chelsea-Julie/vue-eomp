@@ -1,9 +1,9 @@
 <template lang="">
-    <div class="card" style="width: 18rem;">
-        <div class="card-header">
+    <div class="card" style="width: 20rem;">
+        <div class="card-header ">
             <slot name="cardHeader"></slot>
         </div>
-        <div class="card-body">
+        <div class="card-body ">
             <slot name="cardBody"></slot>
         </div>
     </div>
@@ -19,5 +19,8 @@ export default {
 </script>
 
 <style scoped>
-    
+    .card{
+        background-color: white;
+    }
+
 </style>

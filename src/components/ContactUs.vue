@@ -6,9 +6,9 @@
               
               <div class="section-header">
                 <div class="container">
-                  <h2 class="welcome">
+                  <h1 class="welcome">
                     Contact us<i class="bi bi-person-lines-fill"></i>
-                  </h2>
+                  </h1>
                   <p>For any inquiries, feedback, or assistance, please don't hesitate to reach out to us. Our dedicated team is here to address your concerns and provide you with the support you need. You can contact us via email, by phone, or by filling out the contact form below. Your satisfaction is our priority, and we look forward to hearing from you and assisting you in any way we can.
 
                   </p>
