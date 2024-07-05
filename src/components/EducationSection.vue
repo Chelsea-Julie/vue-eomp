@@ -42,21 +42,21 @@
                         <div class="col-3 text-lg-start ">
                         <h2>My Experience</h2>
                         <hr>
-                            <div v-for="edu in experience" :key="edu.id">
-                                <p>{{experience[0].company}}</p>
+                            <div v-for="(exp, index) in experience" :key="exp.id">
+                                <p>{{exp.company}} {{ index }}</p>
                             </div>
                         </div>
             
                         <div class="col-9  d-flex flex-row justify-content-end">
                             <div class="cont d-flex flex-column justify-content-evenly">
-                                <div v-for="edu in education" :key="edu.id" :class="{first : edu.institution == 'Mondale High School', second : edu.institution != 'Mondale High School'}">
-                                    <div class="card-body">
-                                        <h3 class="card-title">{{edu.institution}}</h3>
-                                        <p class="card-text">{{edu.Qualification}}</p>
+                                <div v-for="(exp, index) in experience" :key="index" class="second" >
+                                    <div class="card-body" >
+                                        <h3 class="card-title">{{exp.company}}</h3>
+                                        <p class="card-text">{{exp.title}}</p>
                                         <div class="col d-flex flex-row justify-content-center">
                                             <hr >
                                         </div>
-                                        <p class="card-text"><small class="text-muted">{{edu.paragraph}}</small></p>
+                                        <p class="card-text"><small class="text-muted">{{ exp.paragraph}}</small></p>
                                     </div>
                                 </div>
                             </div>

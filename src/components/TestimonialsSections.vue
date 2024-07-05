@@ -7,11 +7,11 @@
                 <div class="pricing-column" cont v-if="testimonial.name != 'Valhatiem Raynard'" maincont>
                         <div class="pricing-price-row">
                             <div class="pricing-price-wrapper">
-                              <img class="img-fluid" src="https://chelsea-julie.github.io/all-images/images/vue-eomp/placeholder.png" alt="log" >
+                              <img class="img-fluid" :src="testimonials[index].img_url" :alt="testimonials[index].name"  >
                             </div>
                         </div>
                         <div class="pricing-row-title">
-                            <div class="pricing_row_title">{{testimonial.name.slice(0,12)}}</div>
+                            <div class="pricing_row_title">{{testimonial.name}}</div>
                         </div>
                         <div para>
                           <p>{{testimonial.paragraph}}</p>
