@@ -13,7 +13,7 @@
                   <Spinner v-else />
               </div>
           </div>
-          <div class="col">
+          <div class="col" data-aos="flip-up">
                   <img src="https://chelsea-julie.github.io/all-images/images/Humans/landing.jpg" alt="logo" me loading="lazy">
           </div>
       </div>

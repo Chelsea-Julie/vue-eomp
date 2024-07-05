@@ -3,7 +3,7 @@
         <h1>About me</h1>
         <div class="row align-items-center">
             <div class="col-sm-12 col-md-12 col-lg-6">
-                <img class="img-fluid" src="https://chelsea-julie.github.io/all-images/images/Humans/about.jpg" alt="about" loading="lazy">
+                <img class="img-fluid" src="https://chelsea-julie.github.io/all-images/images/Humans/about.jpg" alt="about" loading="lazy" data-aos="zoom-in">
             </div>
 
             <div class="col-sm-12 col-md-12 col-lg-5" v-if="about">

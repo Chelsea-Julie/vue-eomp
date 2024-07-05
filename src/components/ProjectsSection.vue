@@ -39,6 +39,9 @@
 </template>
 
 <script setup>
+import AOS from "aos";
+import "aos/dist/aos.css";
+
     import {computed, onMounted } from 'vue'
     import {useStore} from 'vuex'
 
@@ -51,6 +54,9 @@
     onMounted(() => {
         store.dispatch('fetchProjects')
       })
+      onMounted(async () => {
+        AOS.init({ duration: 1500, once: false });
+      });
 </script>
 
 <style scoped>

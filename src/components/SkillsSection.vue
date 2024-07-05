@@ -7,7 +7,7 @@
             <div  class="d-flex flex-row justify-content-center">
     
                 <div class="wrap d-flex flex-row justify-content-center gap-4 flex-wrap">
-                    <Card v-for="(card, index) in skills" :key="index">
+                    <Card v-for="(card, index) in skills" :key="index" data-aos="zoom-in-right">
                         
                         <template #cardHeader>
 
