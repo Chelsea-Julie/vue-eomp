@@ -28,7 +28,7 @@
                     </div>
                     <p class="card__description">{{ project.description }}</p>
                     <div class="buttonsThingy">
-                      <div class="col d-flex flex-row justify-content-around"><a class="btn" :href="project.github" target="_blank">GitHub</a> <a class="btn">Vercel</a></div>
+                      <div class="col d-flex flex-row justify-content-around"><a class="btn" :href="project.github" target="_blank">GitHub</a> <a class="btn" :href="project.vercel" target="_blank">Vercel</a></div>
                     </div>
                 </div>
                 </a>      

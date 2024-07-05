@@ -9,14 +9,16 @@
                     <div class="wrap">
                         <div class="row">
                             <div class="col-3 text-lg-start ">
-                            <h2>My Education</h2>
-                            <hr>
-                                <ul>
-                                    <li v-for="edu in education" :key="edu.id">
-                                        {{edu.institution}}
-                                    </li>
-                                </ul>
-                            </div>
+                                <h2>My Education</h2>
+                                <hr>
+                                <div class="d-flex flex-row align-items-center">
+                                        <ul>
+                                            <li v-for="edu in education" :key="edu.id">
+                                                {{edu.institution}}
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
                 
                             <div class="col-9  d-flex flex-row justify-content-end">
                                 <div class="cont d-flex flex-column justify-content-evenly">
@@ -120,8 +122,11 @@
 
     :is(h2, h3){
         font-family: "Yeseva One", serif;
-        font-weight: 400;
+        font-weight: 500;
         font-style: normal;
+    }
+    h2{
+        color: white !important;;
     }
     .row{
         width: 70%;
@@ -182,15 +187,18 @@
 
     hr {
         width: 70%;
-        border: 2px solid black;
+        border: 2px solid white;
         border-radius: 5px;
+        color: white !important;
     }
 
     .card-text{
         padding: 0 !important;
         margin: 0 !important;
     }
-
+    li{
+        color: white !important;
+    }
     /* animation  */
 
 

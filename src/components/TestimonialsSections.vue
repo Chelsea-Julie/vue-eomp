@@ -18,7 +18,7 @@
                         </div>
 
                         <div class="pricing-footer">
-                              <div class="gem-button-container gem-button-position-center d-flex flex-row"><a class="gem-button gem-yellow">GitHub</a> <a class="gem-button gem-yellow">LinkedIn</a></div>
+                              <div class="gem-button-container gem-button-position-center d-flex flex-row"><P></P></div>
                         </div>    
                         </div>
                 </div>
@@ -341,6 +341,10 @@ figure {
 
 .pricing-column:hover {
   overflow: hidden;
+}
+
+p{
+  color: white !important;
 }
 
 
