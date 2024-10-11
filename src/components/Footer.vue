@@ -7,6 +7,18 @@
     </footer>
 </template>
 
+<style scoped>
+    p{
+    color: aliceblue;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-size: 1.5rem !important;
+    }
+
+</style>
+
 
 <script>
 export default {

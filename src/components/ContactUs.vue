@@ -97,7 +97,9 @@ export default {
 }
 </script>
 <style scoped>
-
+h2{
+  color:#ceaa9a !important;
+}
 
 section {
   position: relative;
@@ -164,7 +166,7 @@ section {
 }
 
 .contact-info-content h4 {
-  color: #1da9c0;
+  color: #ceaa9a;
   font-size: 1.4em;
   margin-bottom: 5px;
 }
@@ -228,20 +230,20 @@ section {
 .contact-form .input-box input[type="submit"]
 {
   width: 100%;
-  background: #00bcd4;
+  background: #ceaa9a;
   color: #FFF;
   border: none;
   cursor: pointer;
   padding: 10px;
   font-size: 18px;
-  border: 1px solid #00bcd4;
+  border: 1px solid #a68476;
   transition: 0.5s;
 }
 
 .contact-form .input-box input[type="submit"]:hover
 {
   background: #FFF;
-  color: #00bcd4;
+  color: #a68476;
 }
 
 @media (max-width: 991px) {
