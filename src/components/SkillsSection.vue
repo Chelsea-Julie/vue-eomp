@@ -8,14 +8,11 @@
     
                 <div class="wrap d-flex flex-row justify-content-center gap-4 flex-wrap">
                     <Card v-for="(card, index) in skills" :key="index" data-aos="zoom-in-right">
-                        
                         <template #cardHeader>
-
-                            {{skills[index].name}}
                             <img class="img-fluid" :src="skills[index].img_url" :alt="skills[index].name" loading="lazy">
                         </template>
                         <template #cardBody>
-                            {{skills[index].summary}}
+                            {{skills[index].name}}
                         </template>
                     </Card>
                 </div>
@@ -80,5 +77,6 @@
     font-size: 16px;
     line-height: 1.6;
   }
+
   
 </style>

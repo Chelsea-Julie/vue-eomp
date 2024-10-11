@@ -1,5 +1,5 @@
 <template lang="">
-    <div class="card" style="width: 20rem;">
+    <div class="card">
         <div class="card-header ">
             <slot name="cardHeader"></slot>
         </div>
@@ -21,6 +21,8 @@ export default {
 <style scoped>
     .card{
         background-color: white;
+        width: 10rem !important;
+        height: 10rem;
     }
 
 </style>

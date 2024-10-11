@@ -18,10 +18,10 @@
               <div class="container">
                 <div class="row">
                   
-                  <div class="contact-info">
+                  <div class="contact-info" id="info">
                     <div class="contact-info-item">
                       <div class="contact-info-icon">
-                        <i class="fas fa-home"></i>
+                        <i class="bi bi-geo-alt"></i>
                       </div>
                       
                       <div class="contact-info-content">
@@ -32,7 +32,7 @@
                     
                     <div class="contact-info-item">
                       <div class="contact-info-icon">
-                        <i class="fas fa-phone"></i>
+                        <i class="bi bi-telephone"></i>
                       </div>
                       
                       <div class="contact-info-content">
@@ -43,7 +43,7 @@
                     
                     <div class="contact-info-item">
                       <div class="contact-info-icon">
-                        <i class="fas fa-envelope"></i>
+                        <i class="bi bi-envelope"></i>
                       </div>
                       
                       <div class="contact-info-content">
@@ -265,6 +265,8 @@ section {
   }
 }
 
-
+#info {
+  text-align: left;
+}
     
 </style>

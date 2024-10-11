@@ -102,7 +102,6 @@ body {
   margin: 4rem 5vw;
   padding: 0;
   list-style-type: none;
- 
 }
 
 .card {
@@ -222,5 +221,27 @@ img{
 .btn{
  background-color: #6A515E;
 }
+
+@media only screen and (max-width: 935px) {
+  .cards {
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+
+
+
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+      [cont]{
+      width: 20rem;
+      height: 10rem;
+    }
+}
+
+
 
 </style>

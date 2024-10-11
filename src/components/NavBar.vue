@@ -10,25 +10,19 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active text-light" aria-current="page" to="/">Home<i class="bi bi-house"></i></a>
+          <a class="nav-link active text-light" aria-current="page" to="/">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#about">About <i class="bi bi-file-earmark-person"></i></a>
+          <a class="nav-link text-light" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#resume">Resume <i class="bi bi-file-person"></i></a>
+          <a class="nav-link text-light" href="#resume">Education&Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#skills">Skills<i class="bi bi-lightbulb"></i></a>
+          <a class="nav-link text-light" href="#project">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link text-light" href="#project">Projects<i class="bi bi-card-list"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#testimonials">Testimonials<i class="bi bi-person-lines-fill"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-light" href="#reachme">Reach me<i class="bi bi-telephone"></i></a>
+          <a class="nav-link text-light" href="#reachme">Reach me</a>
         </li>
       </ul>
     </div>

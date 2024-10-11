@@ -4,6 +4,11 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+
+console.log(FontAwesomeIcon);
+
+
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap'
 
