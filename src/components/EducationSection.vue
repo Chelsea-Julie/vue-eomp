@@ -17,9 +17,9 @@
                 </li>
                 <li class="list-inline-item items-list">
                   <div class="px-4 text-white">
-                    <div class="event-date badge bg-body">April 2024</div>
+                    <div class="event-date badge bg-body">April 2023</div>
                     <h5 class="pt-2">Life Choices Academy</h5>
-                    <p class="text-muted">I studied at Life Choices Academy for six months, where I focused on web development. During this time, I engaged in various projects that allowed me to apply my skills in real-world scenarios. This experience not only enhanced my technical abilities but also deepened my passion for creating innovative web solutions.</p>
+                    <p class="text-muted">I studied at Life Choices Academy for six months, where I focused on web development. During this time, I engaged in various projects that allowed me to apply my skills in real-world scenarios. This experience not only enhanced my technical abilities but also deepened my passion for creating innovative solutions.</p>
                    
                   </div>
                 </li>
@@ -59,7 +59,7 @@
                   <div class="px-4 text-white">
                     <div class="event-date badge bg-body">September 2024</div>
                     <h5 class="pt-2">LC Studios</h5>
-                    <p class="text-muted">As an intern at LC Studios, I am embarking on an enriching learning journey in cybersecurity. This opportunity allows me to delve into various aspects of the field, including threat analysis, risk management, and network security. I’m gaining essential skills to protect digital assets and contribute to impactful projects.
+                    <p class="text-muted">As an intern at LC Studios, I am embarking on an enriching learning journey in cybersecurity. This opportunity allows me to delve into various aspects of the field, including threat analysis, risk management, and network security. I’m gaining essential skills to protect digital assets and contribute to projects.
                     </p>
                    
                   </div>
@@ -86,6 +86,7 @@
     }
     .horizontal-timeline .items {
       border-top: 3px solid #FFFFFF;
+
     }
     .horizontal-timeline .items .items-list {
       display: block;
@@ -93,10 +94,10 @@
       text-align: center;
       padding-top: 70px;
       margin-right: 0;
-      color: #FFFFFF;
+      color: #a68476;
     }
     li{
-      background-color: #ffffff7e;
+      background-color: #a68476;
     }
     .horizontal-timeline .items .items-list:before {
       content: "";
@@ -104,6 +105,7 @@
       height: 36px;
       border-right: 2px dashed #FFFFFF;
       top: 0;
+      
     }
     .horizontal-timeline .items .items-list .event-date {
       position: absolute;
@@ -114,7 +116,7 @@
       margin: 0 auto;
       font-size: 0.9rem;
       padding-top: 8px;
-      background-color: #FFFFFF;
+      background-color: #a68476;
       color: #000000;
     }
     @media (min-width: 1140px) {
@@ -143,6 +145,17 @@
     ul li{
         margin-inline: 5rem;
     }
+   
+    p{
+        font-family: "Playfair Display", serif;
+        font-optical-sizing: auto;
+        font-weight: 50rem;
+        font-style: normal;
+        color: aliceblue !important;
+
+}  
+    
+
 </style>
 
 
