@@ -23,15 +23,17 @@
                        innovation and improvement.</p>
 
                        <h2>Skills</h2>
-                <div class="wrap d-flex flex-row justify-content-center gap-4 flex-wrap">
-                    <Card v-for="(card, index) in skills" :key="index" data-aos="zoom-in-right">
-                        <template #cardHeader>
-                            <img class="img-fluid" :src="skills[index].img_url" :alt="skills[index].name" loading="lazy">
-                        </template>
-                        <template #cardBody>
-                            {{skills[index].name}}
-                        </template>
-                    </Card>
+                <div class="cont-wrap d-flex flex-row justify-content-center">
+                    <div class="wrap d-flex flex-row justify-content-center gap-4 flex-wrap">
+                        <Card v-for="(card, index) in skills" :key="index" data-aos="zoom-in-right">
+                            <template #cardHeader>
+                                <img class="img-fluid" :src="skills[index].img_url" :alt="skills[index].name" loading="lazy">
+                            </template>
+                            <template #cardBody>
+                                {{skills[index].name}}
+                            </template>
+                        </Card>
+                    </div>
                 </div>
             </div>
 
@@ -184,9 +186,14 @@ a{
 	background-color: #f3e2d6;
 }
 
+    /* .cont-wrap{
+        display: flex;
+        justify-content: center;
+    } */
+
     .wrap{
-        width: 100%;
-        
+        width: 80%;
+        align-self: center;
     }
     .img-fluid{
         width: 5rem;

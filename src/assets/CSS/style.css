@@ -36,6 +36,11 @@
     font-weight: bold;
     color: aliceblue ;
     padding: 0;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 50rem;
+    font-style: normal;
+    color: aliceblue;
   }
   
   nav a.router-link-exact-active {

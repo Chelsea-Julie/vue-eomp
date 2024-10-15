@@ -6,7 +6,7 @@
             </h1>
             <div  class="d-flex flex-row justify-content-center">
     
-                <div class="wrap d-flex flex-row justify-content-center gap-4 flex-wrap">
+                <div class="wrap d-flex flex-column justify-content-center gap-4 flex-wrap">
                     <Card v-for="(card, index) in skills" :key="index" data-aos="zoom-in-right">
                         <template #cardHeader>
                             <img class="img-fluid" :src="skills[index].img_url" :alt="skills[index].name" loading="lazy">
@@ -44,7 +44,8 @@
 
 <style scoped>
     .wrap{
-        width: 80%;
+        width: 70%;
+        background-color: red !important;
     }
     .img-fluid{
         width: 5rem;

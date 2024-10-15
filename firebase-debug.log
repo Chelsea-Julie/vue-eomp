@@ -1,0 +1,94 @@
+[debug] [2024-10-14T06:49:10.312Z] ----------------------------------------------------------------------
+[debug] [2024-10-14T06:49:10.317Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2024-10-14T06:49:10.318Z] CLI Version:   13.0.3
+[debug] [2024-10-14T06:49:10.318Z] Platform:      win32
+[debug] [2024-10-14T06:49:10.318Z] Node Version:  v20.17.0
+[debug] [2024-10-14T06:49:10.318Z] Time:          Mon Oct 14 2024 08:49:10 GMT+0200 (South Africa Standard Time)
+[debug] [2024-10-14T06:49:10.319Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-14T06:49:10.324Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-10-14T06:49:10.544Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-14T06:49:10.545Z] > authorizing via signed-in user (awodwasihlehendrick@gmail.com)
+[debug] [2024-10-14T06:49:10.546Z] [iam] checking project vueeomp-bb89d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-10-14T06:49:10.548Z] > refreshing access token with scopes: []
+[debug] [2024-10-14T06:49:10.550Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-10-14T06:49:10.550Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-14T06:49:11.102Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-10-14T06:49:11.102Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-10-14T06:49:11.127Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions [none]
+[debug] [2024-10-14T06:49:11.128Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions x-goog-quota-user=projects/vueeomp-bb89d
+[debug] [2024-10-14T06:49:11.128Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-14T06:49:11.202Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-10-14T06:49:11.202Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2024-10-14T06:49:12.049Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions 200
+[debug] [2024-10-14T06:49:12.050Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {}
+[debug] [2024-10-14T06:49:12.050Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project vueeomp-bb89d:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-10-14T06:49:12.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d [none]
+[debug] [2024-10-14T06:49:13.593Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d 403
+[debug] [2024-10-14T06:49:13.593Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-10-14T06:49:13.595Z] HTTP Error: 403, The caller does not have permission
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-10-14T06:51:11.469Z] ----------------------------------------------------------------------
+[debug] [2024-10-14T06:51:11.473Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-10-14T06:51:11.473Z] CLI Version:   13.0.3
+[debug] [2024-10-14T06:51:11.474Z] Platform:      win32
+[debug] [2024-10-14T06:51:11.474Z] Node Version:  v20.17.0
+[debug] [2024-10-14T06:51:11.474Z] Time:          Mon Oct 14 2024 08:51:11 GMT+0200 (South Africa Standard Time)
+[debug] [2024-10-14T06:51:11.474Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-14T06:51:11.606Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-14T06:51:11.606Z] > authorizing via signed-in user (awodwasihlehendrick@gmail.com)
+[debug] [2024-10-14T06:51:11.606Z] [iam] checking project vueeomp-bb89d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-10-14T06:51:11.616Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions [none]
+[debug] [2024-10-14T06:51:11.617Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions x-goog-quota-user=projects/vueeomp-bb89d
+[debug] [2024-10-14T06:51:11.617Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-14T06:51:13.488Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions 200
+[debug] [2024-10-14T06:51:13.489Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {}
+[debug] [2024-10-14T06:51:13.489Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project vueeomp-bb89d:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-10-14T06:51:13.491Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d [none]
+[debug] [2024-10-14T06:51:14.308Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d 403
+[debug] [2024-10-14T06:51:14.308Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-10-14T06:51:14.311Z] HTTP Error: 403, The caller does not have permission
+[error] 
+[error] Error: Assertion failed: resolving hosting target of a site with no site name or target name. This should have caused an error earlier
+[debug] [2024-10-14T06:53:44.815Z] ----------------------------------------------------------------------
+[debug] [2024-10-14T06:53:44.820Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\IC\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2024-10-14T06:53:44.820Z] CLI Version:   13.22.0
+[debug] [2024-10-14T06:53:44.821Z] Platform:      win32
+[debug] [2024-10-14T06:53:44.821Z] Node Version:  v20.17.0
+[debug] [2024-10-14T06:53:44.821Z] Time:          Mon Oct 14 2024 08:53:44 GMT+0200 (South Africa Standard Time)
+[debug] [2024-10-14T06:53:44.821Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-10-14T06:53:44.984Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-10-14T06:53:44.985Z] > authorizing via signed-in user (awodwasihlehendrick@gmail.com)
+[debug] [2024-10-14T06:53:44.985Z] [iam] checking project vueeomp-bb89d for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-10-14T06:53:44.989Z] Checked if tokens are valid: true, expires at: 1728892150102
+[debug] [2024-10-14T06:53:44.989Z] Checked if tokens are valid: true, expires at: 1728892150102
+[debug] [2024-10-14T06:53:44.992Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions [none]
+[debug] [2024-10-14T06:53:44.993Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions x-goog-quota-user=projects/vueeomp-bb89d
+[debug] [2024-10-14T06:53:44.994Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-10-14T06:53:47.003Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions 200
+[debug] [2024-10-14T06:53:47.004Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/vueeomp-bb89d:testIamPermissions {}
+[debug] [2024-10-14T06:53:47.004Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project vueeomp-bb89d:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-10-14T06:53:47.005Z] Checked if tokens are valid: true, expires at: 1728892150102
+[debug] [2024-10-14T06:53:47.006Z] Checked if tokens are valid: true, expires at: 1728892150102
+[debug] [2024-10-14T06:53:47.006Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d [none]
+[debug] [2024-10-14T06:53:47.914Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d 403
+[debug] [2024-10-14T06:53:47.914Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vueeomp-bb89d {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-10-14T06:53:47.916Z] HTTP Error: 403, The caller does not have permission
+[debug] [2024-10-14T06:53:48.570Z] FirebaseError: HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\IC\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:49:12)
+    at RetryOperation._fn (C:\Users\IC\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project vueeomp-bb89d. Please make sure the project exists and your account has permission to access it.
